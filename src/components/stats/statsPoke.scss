@@ -1,0 +1,16 @@
+.statsPoke {
+  border: solid 1px black;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 5px;
+  background-color: #fefefe;
+  p {
+    font-weight: bold;
+    span {
+      font-weight: lighter;
+    }
+  }
+}

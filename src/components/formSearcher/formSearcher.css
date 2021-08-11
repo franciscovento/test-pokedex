@@ -1,0 +1,28 @@
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 10px;
+}
+
+.form .inputButtonContainer input {
+  width: 300px;
+}
+
+.form .inputButtonContainer button {
+  margin-left: 5px;
+  padding: 0px 5px;
+}
+
+.form select {
+  width: 300px;
+}
+/*# sourceMappingURL=formSearcher.css.map */
